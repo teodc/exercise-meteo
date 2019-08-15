@@ -1,0 +1,5 @@
+/.idea
+.env
+meteo
+.DS_Store
+Thumbs.db

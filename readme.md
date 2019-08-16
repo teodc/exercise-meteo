@@ -13,3 +13,10 @@ go build
 ./meteo
 curl http://localhost:8080/weather/tokyo
 ```
+
+## ToDo
+
+- Add tests
+- Error handling
+- Add new provider
+- ...

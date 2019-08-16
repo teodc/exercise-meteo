@@ -36,7 +36,7 @@ func main() {
 
 	e.GET("/weather/:city", getWeatherForCity)
 
-	e.Logger.Fatal(e.Start("localhost:8080"))
+	e.Logger.Fatal(e.Start(":8080"))
 }
 
 func getWeatherForCity(context echo.Context) error {

@@ -2,13 +2,22 @@
 
 > WIP
 
-Go exercice based on the one on howistart.org
+Tells you the weather in a given city.
+
+> Exercice based on the one on howistart.org
 
 ## Usage
+
+1. Prepare the `.env` & add your Open Weather API key:
 
 ```
 cp .env.dist .env
 vim .env
+```
+
+2. Run the app:
+
+```
 go build
 ./meteo
 curl http://localhost:8080/weather/tokyo
@@ -27,5 +36,3 @@ curl http://localhost:8080/weather/tokyo
 - Add tests
 - Error handling
 - Add new provider
-- Add comments
-- ...
